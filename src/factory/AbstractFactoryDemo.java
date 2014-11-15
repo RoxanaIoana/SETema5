@@ -13,19 +13,19 @@ public class AbstractFactoryDemo {
         // Am declarat un obiect de tip Squirrel
         Mammal squirrel = mammalFactory.getMammal("Squirrel");
 
-        // Apelez metoda eat folosind obiectul squirrel
+        // Apelez metoda eat folosind obiectul squirrel, verific daca apeleaza metoda eat din clasa Squirrel
         squirrel.eat();
 
         // Am declarat un obiect de tip Rabbit
         Mammal rabbit = mammalFactory.getMammal("Rabbit");
 
-        // Apelez metoda eat folosind obiectul rabbit
+        // Apelez metoda eat folosind obiectul rabbit, verific daca apeleaza metoda eat din clasa Rabbit
         rabbit.eat();
 
         //Am declarat un obiect de tip Fox
         Mammal fox = mammalFactory.getMammal("Fox");
 
-        //// Apelez metoda eat folosind obiectul fox
+        //// Apelez metoda eat folosind obiectul fox, verific daca apeleaza metoda eat din clasa Fox
         fox.eat();
 
         // Aflu tipul clasei
@@ -34,19 +34,19 @@ public class AbstractFactoryDemo {
         // Am declarat un obiect de tip Crocodile
         Reptile crocodile = reptileFactory.getReptile("Crocodile");
 
-        // Apelez metoda eat folosind obiectul crocodile
+        // Apelez metoda eat folosind obiectul crocodile, verific daca apeleaza metoda eat din clasa Crocodile
         crocodile.eat();
 
         //Am declarat un obiect de tip Turtle
         Reptile turtle = reptileFactory.getReptile("Turtle");
 
-        // Apelez metoda eat folosind obiectul turtle
+        // Apelez metoda eat folosind obiectul turtle, verific daca apeleaza metoda eat din clasa Turtle
         turtle.eat();
 
         //Am declarat un obiect de tip Snake
         Reptile snake = reptileFactory.getReptile("Snake");
 
-        // Apelez metoda eat folosind obiectul snake
+        // Apelez metoda eat folosind obiectul snake, verific daca apeleaza metoda eat din clasa Snake
         snake.eat();
 
 
